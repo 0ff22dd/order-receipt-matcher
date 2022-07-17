@@ -8,6 +8,18 @@ This program Scales and Matches between Order Receipt PDF and Shipping Label PDF
 
 ## Dependency
 
+* ghostscript
+
+```shell
+brew install ghostscript
+```
+
+or
+
+```shell
+sudo port install ghostscript
+```
+
 * tesseract (for OCR)
 
 ```shell
